@@ -6,7 +6,7 @@
       </div>
       <div class="col-md-12">
         <div class="card">
-          <div class="card-header">เขียนคำร้องทั่วไป</div>
+          <div class="card-header">เขียนคำร้องขอลาออก</div>
           <div class="card-body">
             <form class="form">
               <div class="row">
@@ -46,6 +46,17 @@
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="name">Name:</label>
+                    <input
+                      class="form-control"
+                      type="text"
+                      v-model="formData.name"
+                      id="name"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="name">Surname :</label>
                     <input
                       class="form-control"
                       type="text"
